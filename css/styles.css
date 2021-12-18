@@ -21,9 +21,18 @@
 body {
   background-color: var(--white-color);
   color: var(--main-text-color);
+
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+}
+
+/*CONTAINERS*/
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* LOGO */
@@ -99,12 +108,22 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
   border-color: var(--accent-background-color);
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
 }
 
 /* CONTACTS */
@@ -191,7 +210,12 @@ body {
 /* FILTER */
 
 .list-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+
   border-color: var(--white-color);
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
