@@ -295,10 +295,6 @@ body {
 .footer-section {
   background-color: var(--accent-background-color);
 }
-.footer-section > .container {
-  margin: 0;
-  padding: 0;
-}
 .footer-section.section {
   padding-left: 215px;
   padding-top: 60px;
