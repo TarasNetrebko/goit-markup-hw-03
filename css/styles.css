@@ -32,8 +32,7 @@ body {
 /*CONTAINERS*/
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -198,9 +197,7 @@ body {
 }
 .studio-section {
   padding: 0;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   margin-top: 94px;
 }
 .list-title {
