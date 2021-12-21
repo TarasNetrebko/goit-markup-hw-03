@@ -41,6 +41,10 @@ body {
 
 /*HEADER*/
 
+.header-section {
+  border-bottom: 1px solid #ececec;
+}
+
 /* LOGO */
 
 .logo {
