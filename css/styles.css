@@ -303,8 +303,8 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin-top: 46px;
+  flex-basis: calc(100% / 3 - 30px);
 }
-
 .portfolio-list-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
