@@ -62,6 +62,7 @@ li {
 .flex-header {
   display: flex;
   padding: 24px 0 25px 0;
+  align-items: center;
 }
 .flex-site-nav {
   display: flex;
@@ -95,9 +96,7 @@ li {
 .list {
   list-style: none;
 }
-.header-list-item {
-  padding-top: 8px;
-}
+
 /* LINK SETTINGS */
 
 .link {
