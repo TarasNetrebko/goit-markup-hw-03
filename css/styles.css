@@ -9,6 +9,7 @@
     специальный цвет некоторых елементов текста  rgba(255, 255, 255, 0.6)
 */
 :root {
+  --card-set-gap: 30px;
   --main-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
@@ -350,13 +351,13 @@ p {
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
-  margin-top: -30px;
-  margin-left: -30px;
+  margin-top: calc(-1 * var(--card-set-gap));
+  margin-left: calc(-1 * var(--card-set-gap));
 }
 .portfolio-list-item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-top: 30px;
-  margin-left: 30px;
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  margin-top: var(--card-set-gap);
+  margin-left: var(--card-set-gap);
 }
 .work-type {
   font-size: 16px;
