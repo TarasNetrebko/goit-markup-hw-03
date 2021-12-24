@@ -297,9 +297,6 @@ img {
 .our-focus-item:not(:last-child) {
   margin-right: 30px;
 }
-.no-gap {
-  display: block;
-}
 .team-section {
   background-color: #f5f4fa;
 }
