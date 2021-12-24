@@ -10,6 +10,8 @@
 */
 :root {
   --card-set-gap: 30px;
+  --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   --main-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
@@ -33,6 +35,11 @@ li,
 p {
   margin: 0;
   padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .visually-hidden {
   position: absolute;
@@ -308,9 +315,9 @@ p {
   width: 270px;
   padding-bottom: 30px;
 
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--card-shadow);
   border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
   background-color: var(--white-color);
 }
 .team-card:not(:last-child) {
